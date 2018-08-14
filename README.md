@@ -7,7 +7,9 @@ Al ingresar a la aplicación se presentan los Top 100, como pantalla de inicio.
  
 
 El aplicativo presenta como menú, dos opciones, localizados en la parte superior:
+
 •	Top 100: que sirve también como página de Home.
+
 •	Buscar: utilizada para realizar búsquedas por artistas de preferencia.
 
 
