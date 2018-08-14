@@ -1,27 +1,22 @@
-# SpotMusicApp
+Spot Music App
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.1.2.
+El siguiente documento es una guía para el conocimiento del usuario, acerca del funcionamiento del sitio Spot Music App.
+El siguiente sitio como como fuente datos la información encontrada en la tienda https://itunes.apple.com/ leyendo la información contenida en formato JSON, utilizando como Front End Angular para la construcción del sitio y presentación de los datos.
 
-## Development server
+Al ingresar a la aplicación se presentan los Top 100, como pantalla de inicio.
+ 
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+El aplicativo presenta como menú, dos opciones, localizados en la parte superior:
+•	Top 100: que sirve también como página de Home.
+•	Buscar: utilizada para realizar búsquedas por artistas de preferencia.
 
-## Code scaffolding
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
 
-## Running unit tests
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-## Running end-to-end tests
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+Página Buscar.
+ 
+La imagen describe el funcionamiento de la página para realizar búsquedas, en la parte superior se muestra una barra de búsqueda, en donde el usuario ingresa el artista de su interés y posteriormente se muestran los resultados en la parte inferior, dentro de los resultados mostrados, se presentan las coincidencias y dentro de las tarjetas se encuentra la opción llamada “Ir al Artista” que redirección a la página iTunes para visualizar la discografía del artista seleccionado.
