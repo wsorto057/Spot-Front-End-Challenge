@@ -1,0 +1,18 @@
+<div class="card-columns">
+  <div *ngFor="let item of items" class="card">
+    <img class="card-img-top" [src]="item['im:image'][2]['label']"  alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title">
+          <span class="badge badge-pill badge-primary">
+              {{ item['im:artist']['label']}}
+          </span>
+         
+     
+      </h5>
+      <p class="card-text">
+          <!-- {{cancion.title['label']}} -->
+          {{ item['im:name']['label']}}
+      </p>
+    </div>
+  </div>
+</div>

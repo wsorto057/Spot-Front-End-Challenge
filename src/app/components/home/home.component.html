@@ -1,0 +1,24 @@
+<app-loading *ngIf="loading"></app-loading>
+
+<div class="card-columns animated fadeIn">
+    <div  *ngFor="let cancion of nuevasCanciones" class="card">
+      <img class="card-img-top" [src]="cancion['im:image'][2]['label']"  alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title">
+            <span class="badge badge-pill badge-primary">
+                {{ cancion['im:artist']['label']}}
+            </span>
+        </h5>
+        <p class="card-text">
+            <!-- {{cancion.title['label']}} -->
+            {{ cancion['im:name']['label']}} - {{cancion['im:price']['label']}}
+           
+        </p>
+        <p class="card-text">Release Date: {{cancion['im:releaseDate']['attributes']['label']}}</p>
+        <!-- <span class="badge badge-pill badge-dark">
+                <a [href]="cancion['im:artist']['attributes']" target="_blank" style="color:white;" >Ir al Artista</a>
+            </span> -->
+        
+      </div>
+    </div>
+</div>
